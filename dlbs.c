@@ -10,7 +10,11 @@ int _bfre3(void **p)
 {
 	if (p && *p)
 	{
+<<<<<<< HEAD
 		free(*p);
+=======
+		fr33(*p);
+>>>>>>> ae1b1cc57aa1eef374cded65fcca685565cdfbfe
 		*p = NULL;
 		return (1);
 	}
