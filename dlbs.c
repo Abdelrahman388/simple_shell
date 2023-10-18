@@ -8,11 +8,11 @@
  */
 int _bfre3(void **p)
 {
-        if (p && *p)
-        {
-                fr33(*p);
-                *p = NULL;
-                return (1);
-        }
-        return (0);
+	if (p && *p)
+	{
+		fr33(*p);
+		*p = NULL;
+		return (1);
+	}
+	return (0);
 }
